@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Link to the bootstrap-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .product-card {
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--navigation for the shopping page-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Online Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+         data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Products for the page-->
+    <div class="container mt-5">
+        <div class="row">
+            <!--Using the grid system-->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="https://th.bing.com/th/id/OIP.cjsGRkzeZnB1ZiHU6YiiaAAAAA?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="responsive" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Pot</h5>
+                        <p class="card-text">R50.00</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="https://th.bing.com/th/id/OIP.V2k0vTaM-fWCw8Ss5rzpFwHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="responsive" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Oak post</h5>
+                        <p class="card-text">R125.00</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="https://roncurrie.co.uk/image/cache/catalog/111-product-pics/12-02-19/150x150-1200x900.jpg" class="responsive" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Timber</h5>
+                        <p class="card-text">R499.99</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="https://th.bing.com/th/id/OIP.EUgqvrDM3TenBXQo3flligHaFj?w=247&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="responsive" alt="Product 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Steel plate</h5>
+                        <p class="card-text">R100.00</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="https://th.bing.com/th/id/OIP.G6m-TnLQtlCFCJxba3ET4wHaHa?w=175&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="responsive" alt="Product 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Pipes</h5>
+                        <p class="card-text">R60.00</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="https://th.bing.com/th/id/OIP.ANG2o5N_NLqCk9gPGpKMHwHaHX?w=158&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="responsive" alt="Product 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Speaker</h5>
+                        <p class="card-text">R350.00</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="https://th.bing.com/th/id/OIP.SM6oqLmr32OFwp1BBMt7FwHaHa?w=150&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="responsive" alt="Product 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Hilti DSH300 cutting saw</h5>
+                        <p class="card-text">R1200.00</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="https://th.bing.com/th/id/OIP.1JVBBLrBJBl-ak804tNp8gHaGk?w=201&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="responsive" alt="Product 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Flange Coupler</h5>
+                        <p class="card-text">R89.99</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="https://th.bing.com/th/id/OIP.vMtXvwthTXjvRa9zek9LMQHaCY?w=319&h=112&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="responsive" alt="Product 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Cutting saw</h5>
+                        <p class="card-text">R1000.00</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="https://th.bing.com/th/id/OIP.SUq082NM89DC0hoLzJgZ0QHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="responsive" alt="Product 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Concrete Grinder</h5>
+                        <p class="card-text">R950.00</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer with the customers contact details-->
+    <footer class="bg-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="form-inline">
+                        <!--Small company logo-->
+                        <img src="https://th.bing.com/th/id/OIP.P1-eLrtE4fsG5vTCBQKnJwHaEo?w=294&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Company Logo" class="mr-2">
+                        <div class="form-group">
+                            <input type="text" class="form-control mr-2" placeholder="Name">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Script for the code-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
